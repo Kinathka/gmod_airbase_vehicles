@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"        "AirBase Vehicles (Main)"
+	"version"     "git"
+	"author_name" "warkanum"
+	"author_url"  "http://www.kinathka.co.za"
+	"info"        ""
+	"override"    "0"
+}
