@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "AVehicles/Hud/passenger"
+	"$translucent" 1
+}

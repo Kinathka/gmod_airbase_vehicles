@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/Flyboi/blackhawk/blackhawk_body_color"
+	//"$bumpmap" "models/Flyboi/blackhawk_body_normal"
+	"$phong" 		"1"
+	"$phongexponent" 		"30"
+	"$phongboost" 		"0.2"
+	"$phongfresnelranges" 	"[1 3 6]"
+	"$phongalbedotint"		"1"
+} 
+
+
+
+
+
+
+
+

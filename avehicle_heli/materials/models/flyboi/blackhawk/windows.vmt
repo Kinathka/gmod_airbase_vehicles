@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/Flyboi/BlackHawk/windows"
+	"$translucent" 1
+}

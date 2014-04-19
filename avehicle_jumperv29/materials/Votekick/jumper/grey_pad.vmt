@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Votekick/jumper/grey_pad"
+	"$nocull" 0	
+	"$surfaceprop" "metal"
+	"$model" 1
+}
+
+

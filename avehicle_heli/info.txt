@@ -1,0 +1,9 @@
+"AddonInfo"
+{
+	"name"        "AirBase Vehicles (Helicopters)"
+	"version"     "git"
+	"author_name" "warkanum, Flyboi"
+	"author_url"  "https://www.kinathka.co.za/projects/game/gmod_airbase_vehicles/"
+	"info"        ""
+	"override"    "0"
+}

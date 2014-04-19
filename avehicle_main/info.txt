@@ -3,7 +3,7 @@
 	"name"        "AirBase Vehicles (Main)"
 	"version"     "git"
 	"author_name" "warkanum"
-	"author_url"  "http://www.kinathka.co.za"
+	"author_url"  "https://www.kinathka.co.za/projects/game/gmod_airbase_vehicles/"
 	"info"        ""
 	"override"    "0"
 }

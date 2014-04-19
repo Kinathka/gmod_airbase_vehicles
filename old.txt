@@ -1,0 +1,5 @@
+The old pre garrysmod 13 version code is at :
+
+http://gmod-avehicles.svn.sourceforge.net/
+
+The old code is not supported anymore.

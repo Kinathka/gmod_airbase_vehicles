@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Votekick/jumper/Wing"
+	"$bumpmap"     "Votekick/jumper/Wing_BUMP"
+	"$surfaceprop" "metal"
+	"$model"     1
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\huey/UH1D1.vtf"
+             "$bumpmap" "models\huey/UH1D1_bump.vtf"
+             "$surfaceprop" "metal"
+             "$model" 1
+}
