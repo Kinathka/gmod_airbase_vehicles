@@ -380,7 +380,7 @@ function ENT:ExitPod(ply)
 	--Give back their weapons!
 	if ply.Avehicle_playerWeapons then
 		for k, v in pairs(ply.Avehicle_playerWeapons) do
-			if (v) and ply:Alive() then
+			if (v) and ply:Alive() and not ply:HasWeapon(v) then
 				ply:Give(v)
 			end
 		end
@@ -396,7 +396,7 @@ end
 
 function ENT:Eject(ply) --Need to update this for CoDriver and etc.
 	if (self:PlayerCheck(self.Passengers[0]) and (self.Passengers[0] == ply))then
-		if (IsValid(self.PodsEnts[0])) then
+		if (IsEntity(self.PodsEnts[0])) then
 			self:ExitPod(ply)
 			self.Passengers[0] = nil
 			self.Entity:SetOwner(nil)
@@ -408,7 +408,7 @@ function ENT:Eject(ply) --Need to update this for CoDriver and etc.
 		end
 	else
 		for i=1, self.PassengerCount, 1 do
-			if (IsValid(self.Passengers[i]) and IsValid(ply)) then
+			if (IsEntity(self.Passengers[i]) and IsEntity(ply)) then
 				if ply == self.Passengers[i] then
 					self:ExitPod(ply)
 					self.Passengers[i] = nil

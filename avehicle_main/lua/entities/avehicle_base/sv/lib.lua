@@ -31,7 +31,7 @@
 
 ---------------------------------------------------------------The Body, Code----------------------------------------------------------------------------
 function ENT:PlayerCheck(ply)
-	if ply and IsValid(ply) then
+	if ply and IsEntity(ply) then
 		if ply:IsPlayer() then
 			return true
 			--if ply:Alive() then
@@ -87,7 +87,7 @@ function ENT:GetPassengers()
 	local cnt = 0
 	if self.PassengerCount >= 0 then
 		for i=0, self.PassengerCount, 1 do
-			if IsValid(self.Passengers[i]) then
+			if IsEntity(self.Passengers[i]) then
 				ps[cnt] = self.Passengers[i]
 				cnt = cnt + 1
 			end

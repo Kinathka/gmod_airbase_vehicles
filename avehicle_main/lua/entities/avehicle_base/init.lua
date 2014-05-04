@@ -243,7 +243,7 @@ end
 
 function ENT:Use(ply, caller)
 	if not self.restrictUse then
-		if IsValid(ply) then
+		if IsEntity(ply) then
 			self:GetIn(ply)
 		end
 	end
@@ -251,7 +251,7 @@ function ENT:Use(ply, caller)
 end
 
 function ENT:OnRemove()
-	if IsValid(self.Entity) then
+	if IsEntity(self.Entity) then
 		self:DamageOnRemove()
 		self:EngineOnRemove()
 		self:EventsOnRemove()
@@ -260,7 +260,7 @@ function ENT:OnRemove()
 		self:PodsOnRemove()
 		self:FuelOnRemove()
 		self:WeaponsOnRemove()
-		self.Entity:Remove()		
+		self.Entity:Remove()	
 	end
 	return true
 end
